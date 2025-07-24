@@ -78,7 +78,7 @@ body {
 
 .hero {
   background: url('https://via.placeholder.com/1200x500') center/cover no-repeat;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,7 +86,7 @@ body {
 
 .hero-text {
   text-align: center;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.8);
   padding: 2rem;
   border-radius: 10px;
   color: #264653
@@ -163,8 +163,8 @@ form input, form textarea {
 }
 
 form button {
-  background-color: #264653;
-  color: #70a9ff;
+  background-color: #70a9ff;
+  color: #264653;
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
