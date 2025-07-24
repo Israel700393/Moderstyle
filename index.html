@@ -78,49 +78,110 @@
       <!--fim lista de produtos-->
     </div>
 
-    <!-- inicio lista de Produtos Feminino -->
-    <section id="produtos" class="produtos-section">
-    <h2>Nossa Coleção Feminina</h2>
-    <div class="produtos-grid">
-      <div class="produto-card">
-        <img src="" alt="Produto 1" width="60px" />
-        <h3>look verão</h3>
-        <p>R$ 187,90</p>
-        <button class="add-cart">Adicionar ao Carrinho</button>
-      </div>
-      <div class="produto-card">
-        <img src="" alt="Produto 2" width="60px" />
-        <h3>Vestido p/Date</h3>
-        <p>R$ 199,90</p>
-        <button class="add-cart">Adicionar ao Carrinho</button>
-      </div>
-            <div class="produto-card">
-        <img src="" alt="Produto 3" width="60px" />
-        <h3>Look Casual</h3>
-        <p>R$ 198,90</p>
-        <button class="add-cart">Adicionar ao Carrinho</button>
-      </div>
-            <div class="produto-card">
-        <img src="" alt="Produto 4" width="60px" />
-        <h3>conjunto Casual</h3>
-        <p>R$ 209,90</p>
-        <button class="add-cart">Adicionar ao Carrinho</button>
-      </div>
-            <div class="produto-card">
-        <img src="" alt="Produto 5" width="60px" />
-        <h3>Conjunto Social</h3>
-        <p>R$ 878,90</p>
-        <button class="add-cart">Adicionar ao Carrinho</button>
-      </div>
-            <div class="produto-card">
-        <img src="" alt="Produto 6" width="60px" />
-        <h3>conjunto casual/social</h3>
-        <p>R$ 648,90</p>
-        <button class="add-cart">Adicionar ao Carrinho</button>
-      </div>
-  </section>
-<!--Fim da lista de produtos femininos-->
+ <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .carrossel {
+      position: relative;
+      max-width: 100%;
+      width: 600px;
+      margin: 50px auto;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slide {
+      width: 100%;
+      flex-shrink: 0;
+    }
+
+    .slide img {
+      width: 100%;
+      display: block;
+    }
+
+    /* Navegação por rádio (sem JS) */
+    input[name="radio-btn"] {
+      display: none;
+    }
+
+    .navigation-manual {
+      position: absolute;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: -40px;
+    }
+
+    .manual-btn {
+      border: 2px solid #fff;
+      padding: 5px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: background 0.3s;
+      margin: 0 5px;
+    }
+
+    .manual-btn:hover {
+      background: #fff;
+    }
+
+    /* Slides controlados pelos inputs */
+    #radio1:checked ~ .first {
+      transform: translateX(0);
+    }
+
+    #radio2:checked ~ .first {
+      transform: translateX(-100%);
+    }
+
+    #radio3:checked ~ .first {
+      transform: translateX(-200%);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="carrossel">
+    <!-- Inputs de controle -->
+    <input type="radio" name="radio-btn" id="radio1" checked>
+    <input type="radio" name="radio-btn" id="radio2">
+    <input type="radio" name="radio-btn" id="radio3">
+
+    <!-- Slides -->
+    <div class="slides first">
+      <div class="slide">
+        <img src="img/vestido.png" alt="Slide 1">
+      </div>
+      <div class="slide">
+        <img src="img/verão.png" alt="Slide 2">
+      </div>
+      <div class="slide">
+        <img src="img/socialcam.png" alt="Slide 3">
+      </div>
+    </div>
+
+    <!-- Navegação manual -->
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+    </div>
+  </div>
 
   <!-- Sobre -->
   <section id="sobre" class="sobre-section">
