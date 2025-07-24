@@ -89,7 +89,7 @@ body {
   background-color: rgba(0,0,0,0.4);
   padding: 2rem;
   border-radius: 10px;
-  color: #9fc5ff;
+  color: #264653
 }
 
 .btn {
@@ -163,8 +163,8 @@ form input, form textarea {
 }
 
 form button {
-  background-color: #70a9ff;
-  color: #264653;
+  background-color: #264653;
+  color: #70a9ff;
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
