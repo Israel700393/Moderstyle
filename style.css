@@ -22,8 +22,8 @@ body {
 .logo {
   font-size: 40px;
   font-weight: bold;
-  background-color: #264653;
-  color: #70a9ff;
+  background-color: #333;
+  color: white;
 }
 .nav-links {
   list-style: none;
@@ -51,7 +51,7 @@ body {
 }
 
 /* Responsivo */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .menu-toggle {
     display: contents;
   }
