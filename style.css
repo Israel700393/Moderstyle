@@ -124,12 +124,12 @@ body {
 
 .produto-card {
   background: #70a9ff;
-  border: 2px solid #264653;
-  box-shadow: #002a68 10px;
+  border: 2px solid #0079a8;
+  box-shadow: #0f489c 10px;
   border-radius: 10px;
   text-align: center;
   padding: 1rem;
-  transition:  0.5s ease;
+  transition: 1s ease;
 }
 
 .produto-card:hover {
