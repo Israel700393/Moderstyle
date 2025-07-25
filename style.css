@@ -123,9 +123,9 @@ body {
 }
 
 .produto-card {
-  background: #70a9ff;
-  border: 2px solid #0079a8;
-  box-shadow: #0f489c 10px;
+  background: #264653;
+  border: 4px solid #002331;
+  box-shadow: #5c718d 10px;
   border-radius: 10px;
   text-align: center;
   padding: 1rem;
