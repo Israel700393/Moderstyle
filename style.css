@@ -124,7 +124,7 @@ body {
 
 .produto-card {
   background: #000;
-  border: 1px solid #00b7ff;
+  border: 2px solid #000;
   box-shadow: #70a9ff 10px;
   border-radius: 10px;
   text-align: center;
