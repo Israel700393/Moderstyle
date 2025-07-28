@@ -10,6 +10,9 @@ body {
 
 }
 
+.color {
+ background-color: rgba(154, 202, 247, 0.5);
+}
 
 .navbar {
   background-color: #333;
