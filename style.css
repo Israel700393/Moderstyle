@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url('img/fundo.png') no-repet;
 }
 
 body {
   font-family: Arial, sans-serif;
+  background-image: url('img/fundo.png') 1080px;
 }
 
 
