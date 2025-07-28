@@ -24,8 +24,9 @@ body {
   font-size: 40px;
   font-weight: bold;
   background-color: #333;
-  color: white;
+ color: rgb(120, 163, 204);
 }
+
 .nav-links {
   list-style: none;
   display: flex;
