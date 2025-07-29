@@ -24,20 +24,20 @@ body {
 .backgroundImage {
   overflow: hidden;
   height: 100%;
-  background-image: url(https://placehold.co/1366x768/666666/ffffff?text=Background);
+  background-image: url('img/fundo-inicio.jpg');
   background-size: cover;
   background-position: 50% 50%;
   position: relative;
 }
 
 #header {
-  background-image: url(http://placehold.co/1366x768/666666/ffffff?text=Header);
+  background-image: url('img/fundo-inicio.jpg');
 }
 #more {
-  background-image: url(http://placehold.co/1366x768/666666/ffffff?text=More);
+  background-image: url('img/fundo-inicio.jpg');
 }
 #last {
-  background-image: url(http://placehold.co/1366x768/666666/ffffff?text=Last);
+  background-image: url('img/fundo-inicio.jpg');
 }
 .content {
   background: white;
