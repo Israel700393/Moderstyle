@@ -24,14 +24,14 @@ body {
 .backgroundImage {
   overflow: hidden;
   height: 100%;
-  background-image: url('img/fundo-inicio.jpg');
+  background-image: url('img/horarios.png');
   background-size: cover;
   background-position: 50% 50%;
   position: relative;
 }
 
 #header {
-  background-image: url('img/horarios.png');
+  background-image: url('img/fundo-inicio.jpg');
 }
 #more {
   background-image: url('img/fundo-inicio2.jpg');
