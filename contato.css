@@ -54,7 +54,7 @@ body {
 /* Responsivo */
 @media (max-width: 600px) {
   .menu-toggle {
-    display: contents;
+    display: flex;
   }
 
   .nav-links {
