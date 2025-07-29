@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html, body {
+  height: 100%;
+  width: 100%;  
+}
+body {
+  margin: 0;
+  font-family: Calibri, sans-serif;
+  color: #333;
+  text-align: center;  overflow-x: hidden;
+}
+.image {
+  overflow: hidden;
+  height: 300px;
+}
+.header {
+  height: 500px;
+}
+.backgroundImage {
+  overflow: hidden;
+  height: 100%;
+  background-image: url('img/horarios.png');
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+}
+
+#header {
+  background-image: url('img/fundo-inicio.jpg');
+}
+#more {
+  background-image: url('img/fundo-inicio2.jpg');
+}
+#last {
+  background-image: url('img/fundo-inicio3.jpg');
+}
+.content {
+  background: white;
+}
+.content article {
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 480px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #333;
+ color: rgb(195, 226, 255);
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #70a9ff;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #444;
+    position: relative;
+    top: 60px;
+    left: 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+footer {
+  padding: 10px;
+  color: white;
+  background: #333;
+}
