@@ -47,11 +47,7 @@ body {
   margin: 0 auto;
   max-width: 480px;
 }
-footer {
-  padding: 10px;
-  color: white;
-  background: #333;
-}
+
 
 body {
   font-family: Arial, sans-serif;
@@ -125,12 +121,8 @@ body {
   }
 }
 
-
-
-.main-footer {
-  text-align: center;
-  padding: 2rem;
-  background-color: #111;
-  color: #fff;
+footer {
+  padding: 10px;
+  color: white;
+  background: #333;
 }
-
