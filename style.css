@@ -158,7 +158,7 @@ section {
 }
 
 .swiper-slide-active {
-  filter: blur(0px);
+  filter: blur(5px);
 }
 
 .swiper-pagination-bullet,
