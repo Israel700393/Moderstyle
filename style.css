@@ -72,7 +72,7 @@ body {
 }
 .nav-links {
   list-style: none;
-  display: contents;
+  display: flex;
   gap: 20px;
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 .menu-toggle {
-  display: contents;
+  display: none;
   font-size: 28px;
   background: none;
   border: none;
@@ -98,11 +98,11 @@ body {
 /* Responsivo */
 @media (max-width: 600px) {
   .menu-toggle {
-    display: contents;
+    display: flex;
   }
 
   .nav-links {
-    display: contents;
+    display: none;
     flex-direction: column;
     width: 100%;
     background-color: #444;
