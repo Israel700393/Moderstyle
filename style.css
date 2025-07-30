@@ -70,6 +70,7 @@ body {
   background-color: #333;
  color: rgb(195, 226, 255);
 }
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -87,7 +88,7 @@ body {
 }
 
 .menu-toggle {
-  display: flex;
+  display: none;
   font-size: 28px;
   background: none;
   border: none;
@@ -98,15 +99,15 @@ body {
 /* Responsivo */
 @media (max-width: 600px) {
   .menu-toggle {
-    display: flex;
+    display: contents;
   }
 
   .nav-links {
-    display: flex;
+    display: none;
     flex-direction: column;
     width: 100%;
     background-color: #444;
-    position: absolute;
+    position: relative;
     top: 60px;
     left: 0;
   }
@@ -120,6 +121,8 @@ body {
     text-align: center;
   }
 }
+
+
 
 footer {
   padding: 10px;
