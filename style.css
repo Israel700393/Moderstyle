@@ -87,7 +87,7 @@ body {
 }
 
 .menu-toggle {
-  display: none;
+  display: flex;
   font-size: 28px;
   background: none;
   border: none;
