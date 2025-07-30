@@ -57,7 +57,7 @@ body {
 .navbar {
   background-color: #333;
   color: white;
-  display: flex;
+  display: contents;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
@@ -72,7 +72,7 @@ body {
 }
 .nav-links {
   list-style: none;
-  display: flex;
+  display: contents;
   gap: 20px;
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 .menu-toggle {
-  display: none;
+  display: contents;
   font-size: 28px;
   background: none;
   border: none;
@@ -98,11 +98,11 @@ body {
 /* Responsivo */
 @media (max-width: 600px) {
   .menu-toggle {
-    display: flex;
+    display: contents;
   }
 
   .nav-links {
-    display: none;
+    display: contents;
     flex-direction: column;
     width: 100%;
     background-color: #444;
@@ -112,7 +112,7 @@ body {
   }
 
   .nav-links.active {
-    display: flex;
+    display: contents;
   }
 
   .nav-links li {
