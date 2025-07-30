@@ -15,3 +15,4 @@ document.querySelectorAll('.add-cart').forEach(button => {
     alert("Produto adicionado ao carrinho!");
   }); 
 });
+
