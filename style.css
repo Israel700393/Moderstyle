@@ -112,7 +112,7 @@ body {
   }
 
   .nav-links.active {
-    display: contents;
+    display: flex;
   }
 
   .nav-links li {
